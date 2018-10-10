@@ -46,7 +46,7 @@ export class ProductosService {
     }
   }
 
-  private filtarProductos( texto: string){
+  private filtarProductos( texto: string ){
  
     this.productosFiltrados = [];
     texto = texto.toLocaleLowerCase();
